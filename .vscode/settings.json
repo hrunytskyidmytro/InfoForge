@@ -1,0 +1,62 @@
+{
+  "explorer.compactFolders": false,
+  "editor.rulers": [80],
+  "editor.stickyScroll.enabled": false,
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": false,
+  "prettier.tabWidth": 2,
+  "prettier.printWidth": 80,
+  "prettier.trailingComma": "all",
+  "prettier.endOfLine": "auto",
+
+  "[json]": {
+    "prettier.tabWidth": 2,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "prettier.tabWidth": 2,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+
+  "typescript.preferences.importModuleSpecifier": "shortest", // relative | non-relative
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.enablePersistentSessions": false,
+
+  "material-icon-theme.files.associations": {
+    "store/index.ts": "redux-store",
+    "router/index.jsx": "routing",
+    "*.api.ts": "redux-action",
+    "*.slice.ts": "redux-reducer",
+    "*.constants.ts": "mocha"
+  }
+}
